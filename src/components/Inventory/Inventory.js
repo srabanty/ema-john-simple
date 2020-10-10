@@ -4,7 +4,7 @@ const Inventory = () => {
     const handleAddProduct = ()=>{
         
         const product ={};
-        fetch('http://localhost:5000/addProduct',{
+        fetch('https://fast-beach-18265.herokuapp.com/addProduct',{
             method : 'POST',
             headers : {
                 'Content-Type':'Application/json'
