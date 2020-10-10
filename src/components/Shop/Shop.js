@@ -15,7 +15,7 @@ const Shop = () => {
 
     useEffect(()=>{
         // fetch('https://fast-beach-18265.herokuapp.com/products')
-        fetch('http://localhost:5000/products?search='+search)
+        fetch('https://fast-beach-18265.herokuapp.com/products?search='+search)
         .then(res=>res.json())
         .then(data=>setProducts(data))
     },[search])
